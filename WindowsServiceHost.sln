@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "HelloServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WASHost", "WASHost\WASHost.csproj", "{7B85F5C7-B775-4850-B70B-C8820A65A188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B85F5C7-B775-4850-B70B-C8820A65A188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B85F5C7-B775-4850-B70B-C8820A65A188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B85F5C7-B775-4850-B70B-C8820A65A188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B85F5C7-B775-4850-B70B-C8820A65A188}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,8 @@ namespace Client
 
             var result = client.Hello(new HelloService.Person { FirstName = "John", LastName = "Vernon" });
 
-            throw new Exception(result);
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }
