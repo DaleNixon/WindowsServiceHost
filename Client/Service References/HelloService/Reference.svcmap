@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="65c40f7d-ffb0-4b83-acce-967254ab3a57" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/HelloService/service" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="fc415679-0206-4cfa-b9dd-a06c6e4bafe7" SourceId="1" SourceUrl="http://localhost:8000/HelloService/service?xsd=xsd2" />
+    <MetadataFile FileName="HelloService.wsdl" MetadataType="Wsdl" ID="ffbd75a7-59b9-4c03-bff0-497c3012bd72" SourceId="1" SourceUrl="http://localhost:8000/HelloService/service?wsdl" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="d14105a9-3ad5-445b-896b-0e3f978cc8db" SourceId="1" SourceUrl="http://localhost:8000/HelloService/service?xsd=xsd1" />
+    <MetadataFile FileName="service.disco" MetadataType="Disco" ID="49a2a262-2f76-42fd-80d7-5a45bb53e30f" SourceId="1" SourceUrl="http://localhost:8000/HelloService/service?disco" />
+    <MetadataFile FileName="service2.xsd" MetadataType="Schema" ID="3d27dde7-47ee-4f22-9dda-f248334a621b" SourceId="1" SourceUrl="http://localhost:8000/HelloService/service?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
