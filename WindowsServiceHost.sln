@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsServiceHost", "Windo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloService", "HelloService\HelloService.csproj", "{7C2F68A3-8B15-4D9A-9B78-D9D83861C724}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolidatedHelloWindowsService", "ConsoledatedHelloWindowsService\ConsolidatedHelloWindowsService.csproj", "{0063FC15-EAFB-453D-BE81-EA1A7628308D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{7C2F68A3-8B15-4D9A-9B78-D9D83861C724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C2F68A3-8B15-4D9A-9B78-D9D83861C724}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7C2F68A3-8B15-4D9A-9B78-D9D83861C724}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0063FC15-EAFB-453D-BE81-EA1A7628308D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0063FC15-EAFB-453D-BE81-EA1A7628308D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0063FC15-EAFB-453D-BE81-EA1A7628308D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0063FC15-EAFB-453D-BE81-EA1A7628308D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C1CE1C7-E93A-423F-8EDA-C74EC080E6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
